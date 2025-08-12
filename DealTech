@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DealTech - Technology Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>DealTech</h1>
+            <p class="tagline">Empowering Your Future with Technology Solutions</p>
+            <a href="#contact" class="cta-btn">Get Started</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>DealTech provides solutions to all technology needs — from website development and marketing to coding, job creation, and teaching tech skills to everyone.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Website Development</li>
+                <li>Digital Marketing</li>
+                <li>Custom Software Solutions</li>
+                <li>Tech Skills Training</li>
+                <li>Job Opportunity Creation</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="values">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+            <ul>
+                <li>Cutting-edge Technology</li>
+                <li>Expert Team</li>
+                <li>Client-Centric Approach</li>
+                <li>Affordable Pricing</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:kd0692112@gmail.com">kd0692112@gmail.com</a></p>
+            <p>Phone: <a href="tel:+2349067179730">09067179730</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Quick Links: <a href="#about">About</a> | <a href="#services">Services</a> | <a href="#contact">Contact</a></p>
+            <p>&copy; 2025 DealTech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+header {
+    background: linear-gradient(to right, #0D6EFD, #00D1B2);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background: white;
+    color: #0D6EFD;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.cta-btn:hover {
+    background: #00D1B2;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 209, 178, 0.7);
+}
+
+section {
+    padding: 40px 20px;
+}
+
+footer {
+    background: #0D6EFD;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+ScrollReveal().reveal('section', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '50px',
+    easing: 'ease-in-out',
+    reset: true
+});
